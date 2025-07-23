@@ -1,8 +1,9 @@
-# Hello-World-and-Calculator-program
 
-// Aakash Choudhari
-// E&TC-A2
-// 24070123031
+Aakash Choudhari
+
+E&TC-A2
+
+24070123031
 
 # 🧪 Experiment 1 - Hello World & Basic Calculator
 
