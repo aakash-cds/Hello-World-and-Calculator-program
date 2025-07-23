@@ -1,25 +1,84 @@
 # Hello-World-and-Calculator-program
 
-im: The aim of this experiment is to study and implement the basic structure of a C++ program, focusing on understanding the different data types available. This includes writing and executing simple programs such as printing "Hello World" and creating a basic calculator to perform arithmetic operations.
+// Aakash Choudhari
+// E&TC-A2
+// 24070123031
 
-Procedure:
+# 🧪 Experiment 1 - Hello World & Basic Calculator
 
-  1) Open a C++ IDE or text editor.
+## 🎯 Aim:
+To understand and implement:
+- The basic structure of a C++ program
+- Console input/output using `cin` and `cout`
+- Fundamental data types and variables
+- Arithmetic operations using operators
 
-  2) Write a simple program to print "Hello World" using the iostream library.
+---
 
-  3) Compile and run the program to verify output.
+## 🧠 Theory:
 
-  4) Write a calculator program to perform addition, subtraction, multiplication, and division.
+C++ is a statically-typed, general-purpose programming language that supports procedural as well as object-oriented programming. Every C++ program must contain a `main()` function, which acts as the starting point of the program.
 
-  5) Declare variables with appropriate data types like int and float.
+### ➤ C++ Program Structure:
+A typical C++ program includes:
+- `#include <iostream>`: To use input and output streams
+- `using namespace std;`: To avoid using `std::` prefix
+- `int main() { ... }`: Main function where the code execution begins
 
-  6) Take input values from the user using cin.
+### ➤ Data Types:
+Common C++ data types include:
+| Data Type | Description          | Example   |
+|-----------|----------------------|-----------|
+| `int`     | Integer numbers       | 1, -3, 42 |
+| `float`   | Decimal numbers       | 3.14, 0.5 |
+| `char`    | Single character      | 'A', 'z'  |
+| `bool`    | Boolean value         | true/false |
 
-  7) Use arithmetic operators to perform calculations.
+### ➤ Operators:
+Operators are symbols used to perform operations on variables and values.
 
-  8) Display results using cout.
+- Arithmetic: `+`, `-`, `*`, `/`
+- Assignment: `=`
+- Comparison: `==`, `!=`, `<`, `>`, `<=`, `>=` (used in later experiments)
 
-  9) Compile and run the calculator program to check correctness.
+---
 
-Conclusion: This experiment helped in understanding the basic syntax and structure of C++ programs. It provided hands-on experience with different data types and using input-output operations. Writing the "Hello World" and calculator programs reinforced knowledge of how to declare variables, use arithmetic operators, and perform simple computations, which forms the foundation of C++ programming.
+## ⚙️ Procedure:
+1. Open your preferred C++ IDE (Code::Blocks / VS Code / OnlineGDB).
+2. Create a new `.cpp` file and name it appropriately.
+3. Write the C++ program using the basic structure:
+   - Use `#include <iostream>` and `using namespace std;`
+   - Use the `main()` function as the entry point
+4. For the Hello World program:
+   - Display a message using `cout`
+5. For the calculator:
+   - Accept two numbers and an operator (`+`, `-`, `*`, `/`)
+   - Use `if-else` statements to determine the operation
+   - Display the result using `cout`
+6. Compile and run the program
+7. Observe the output and verify correctness
+
+---
+
+## 🔍 Learning Outcomes:
+- Understood the structure of a valid C++ program
+- Gained experience with input and output operations
+- Practiced declaring and using different data types
+- Performed basic arithmetic using operators
+- Applied decision-making logic using conditional statements
+
+---
+
+## 📌 Key Concepts Covered:
+- C++ syntax and structure
+- Standard input/output
+- Variables and data types
+- Arithmetic operations
+- Conditional logic (`if-else`)
+
+---
+
+## 📝 Experiment Summary:
+This experiment introduced the essentials of writing and executing a C++ program. By building two simple programs — one to display "Hello, World!" and another to simulate a basic calculator — the foundational concepts of input/output, data types, and control flow were reinforced. This sets the stage for more advanced experiments involving decision-making, loops, and bitwise operations.
+
+---
